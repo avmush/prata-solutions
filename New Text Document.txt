@@ -1,0 +1,33 @@
+4.3
+#include <iostream>
+using namespace std;
+int main ()
+{
+int arr=20;
+char name[arr];
+char surname[arr];
+cout<<"enter your name" <<endl;
+cin.getline(name,arr);
+cout<<"enter your last name" <<endl;
+cin.getline(surname,arr);
+cout<<"your name and surname is: " <<surname <<" " <<name;
+}
+
+4.10
+
+
+#include <iostream>
+using namespace std;
+int main(){
+float mySpeed[3]={};
+cout<<"enter your first run speed";
+cin>>mySpeed[0];
+cout<<"enter your second run speed";
+cin>>mySpeed[1];
+cout<<"enter your third run speed";
+cin>>mySpeed[2];
+cout<<"your avarege speed is "<<(mySpeed[0]+mySpeed[1]+mySpeed[2])/3 <<" km/h";
+}
+
+
+
