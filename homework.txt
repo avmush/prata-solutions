@@ -1,0 +1,20 @@
+4.5
+#include <iostream>
+using namespace std;
+struct CandyBar{
+string brandName;
+float brandWeight;
+int brandKcal;
+};
+int main(){
+CandyBar snack;
+snack.brandName="Mucha Monch";
+snack.brandWeight=2.3;
+snack.brandKcal=350;
+//CandyBar snack={"Mucha Monch",2.3,350}; karch tarberak
+
+cout<<"name of the brand is "<<snack.brandName<<endl;
+cout<<"weight of brand is "<<snack.brandWeight<<" kg"<<endl;
+cout<<"calories is brand is "<<snack.brandKcal<<" Kcals"<<endl;
+}
+
