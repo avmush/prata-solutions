@@ -18,3 +18,22 @@ cout<<"weight of brand is "<<snack.brandWeight<<" kg"<<endl;
 cout<<"calories is brand is "<<snack.brandKcal<<" Kcals"<<endl;
 }
 
+
+4.6
+#include <iostream>
+using namespace std;
+struct CandyBar{
+string brandName;
+float brandWeight;
+int brandKcal;
+};
+int main(){
+CandyBar snack;
+cout<<"enter the name"<<endl;
+cin>>snack.brandName;
+cout<<"enter the weight"<<endl;
+cin>>snack.brandWeight;
+cout<<"enter calories \n";
+cin>>snack.brandKcal;
+cout<<snack.brandName<<" is "<<snack.brandWeight<<" kgg"<<" and has "<<snack.brandKcal<<" Kcals";
+}
