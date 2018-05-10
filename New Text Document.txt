@@ -1,4 +1,4 @@
-4.3
+//4.3 khndri hamar
 #include <iostream>
 using namespace std;
 int main ()
@@ -13,7 +13,7 @@ cin.getline(surname,arr);
 cout<<"your name and surname is: " <<surname <<" " <<name;
 }
 
-4.10
+//4.10
 
 
 #include <iostream>
